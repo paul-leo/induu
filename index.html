@@ -1,12 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="keywords" content="因动官网">
+    <meta name="description" content="因动官网">
+    <title>因动官网</title>
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <meta name="viewport" content="width=540,user-scalable=no,target-densitydpi=270, viewport-fit=cover">
+    <link rel="stylesheet" href="css/index.css?ver=1546408020989">
+
 </head>
+
 <body>
-    test
+    <div class="page">
+        <div class="header">
+            <a class="logo" href="#home">
+
+            </a>
+
+            <ul class="menu">
+                <li class="active">
+                    <a href="#home">主页</a>
+                </li>
+                <li>
+                    <a href="#about">关于因动</a>
+                </li>
+                <li>
+                    <a href="#case">项目案例</a>
+                </li>
+                <li>
+                    <a href="#brand">品牌合作</a>
+                </li>
+                <li>
+                    <a href="#contact">联系我们</a>
+                </li>
+            </ul>
+            <a class="menu_btn" href="javascript:void(0)">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class="section blank_section" id="home"></div>
+        <div class="slogan_section section">
+            <div id="particles-js"><canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="1920"
+                    height="1606"></canvas></div>
+            <div class="slogan"><img src="images/ic_logo+slogon.png" alt=""></div>
+            <a class="mouse" href=""></a>
+        </div>
+
+        <div class="section about_section" id="about">
+            <div class="content">
+                <div class="left animation" data-class="fadeInUp" data-delay="0" data-duration="600">
+                    <h3><span>关于我们</span><span class="en">ABOUT US</span></h3>
+                    <p class="line"></p>
+                    <h4>“因势而动 方显从容”</h4>
+                    <p class="text">因动是一个有生命力的团队，我们热爱创意、追求创意，同时致力于为客户提供有效果、高质量的传播服务。
+                        <br />公司自成立以来，服务过腾讯、网易、盛大等近百家互联网厂商，其中80%为移动端互联网游戏企业。
+                        <br />我们致力于成为您最得力的市场营销内参；
+                        <br />高效的背后，是团队的能力与专业；
+                        <br />有效的背后，是我们的精准与洞察。</p>
+                </div>
+                <div class="right animation" data-class="fadeInRight" data-delay="0" data-duration="600">
+                    <img class="xiangqi" src="images/ic_about.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section sphere_section">
+            <div class="content">
+                <div class="title">
+                    <div class="left animation" data-class="fadeInLeft" data-delay="0" data-duration="600">
+                        <h3>我们的业务范围</h3>
+                        <p class="en">SPHERE OF BUSINESS</p>
+                    </div>
+                    <div class="line animation" data-class="fadeInUp" data-delay="0" data-duration="600"></div>
+                    <div class="right animation" data-class="fadeInRight" data-delay="0" data-duration="600">
+                        <p><span class="maohao1"></span> 作为一个提供全面服务的广告公司，我们走在数字技术、数据驱动型市场及研究的最前沿。<span class="maohao2"></span></p>
+                    </div>
+                </div>
+
+            </div>
+            <ul class="sphere_list">
+                <li class="animation" data-class="fadeInRight" data-delay="100" data-duration="600"><img src="images/ic_sphere_1.png"
+                        alt=""></li>
+                <li class="animation" data-class="fadeInRight" data-delay="200" data-duration="600"><img src="images/ic_sphere_2.png"
+                        alt=""></li>
+                <li class="animation" data-class="fadeInRight" data-delay="300" data-duration="600"><img src="images/ic_sphere_3.png"
+                        alt=""></li>
+                <li class="animation" data-class="fadeInRight" data-delay="400" data-duration="600"><img src="images/ic_sphere_4.png"
+                        alt=""></li>
+                <li class="animation" data-class="fadeInRight" data-delay="400" data-duration="600"><img src="images/ic_sphere_5.png"
+                        alt=""></li>
+            </ul>
+        </div>
+        <div class="section case_section" id="case">
+            <div class="title animation" data-class="fadeInUp" data-delay="0" data-duration="600">
+                <h3>专业的广告营销</h3>
+                <p class="en">ADVERTISING MARKETING</p>
+            </div>
+            <p class="text animation" data-class="fadeInUp" data-delay="0" data-duration="600">
+                看到消费者的真实需求，给予真正有效的创意，创造切实可见的热点，辅以全面真实的推广，我们拥有一群对营销有<br />热情、对电子新零售未来有想象力的创意玩家， 成为许多知名品牌及平台的策略伙伴。
+            </p>
+            <div class="case_wrap animation" data-class="fadeInUp" data-delay="0" data-duration="600">
+                <div class="case_list">
+                    <script type="text/template">
+                        {@each items as item,key}
+                        <div class="case">
+                            <!-- <a href="case.html?#id=${parseInt(key)+1}"> -->
+                                <img src="${item.imageList[0].url}" alt="">
+                                <div class="mask"></div>
+                                <div class="text">
+                                    <h4>${item.title}</h4>
+                                    <p>${item.subtitle}</p>
+                                </div>
+                            <!-- </a> -->
+                        </div>
+                        {@/each}
+                    </script>
+                </div>
+            </div>
+            <a class="casedetail animation" data-class="fadeInUp" data-delay="0" data-duration="600" href="javascript:void(0)">案例详情</a>
+        </div>
+        <div class="section cooperative_section" id="brand">
+            <div class="title animation" data-class="fadeInUp" data-delay="0" data-duration="600">
+                <h3>合作客户</h3>
+                <p class="en">COOPERATIVE CLIENT</p>
+            </div>
+            <ul class="brand_list animation" data-class="fadeInUp" data-delay="0" data-duration="600">
+                <li>
+                    <img src="images/brand/ic_brand_1.png" alt="">
+                </li>
+                <li>
+                    <img src="images/brand/ic_brand_2.png" alt="">
+                </li>
+                <li>
+                    <img src="images/brand/ic_brand_3.png" alt="">
+                </li>
+                <li>
+                    <img src="images/brand/ic_brand_4.png" alt="">
+                </li>
+                <li>
+                    <img src="images/brand/ic_brand_5.png" alt="">
+                </li>
+                <li>
+                    <img src="images/brand/ic_brand_6.png" alt="">
+                </li>
+                <li>
+                    <img src="images/brand/ic_brand_7.png" alt="">
+                </li>
+                <li>
+                    <img src="images/brand/ic_brand_8.png" alt="">
+                </li>
+                <li>
+                    <img src="images/brand/ic_brand_9.png" alt="">
+                </li>
+                <li>
+                    <img src="images/brand/ic_brand_10.png" alt="">
+                </li>
+                <li>
+                    <img src="images/brand/ic_brand_11.png" alt="">
+                </li>
+                <li>
+                    <img src="images/brand/ic_brand_12.png" alt="">
+                </li>
+            </ul>
+            <a class="view_more animation" data-class="fadeInUp" data-delay="0" data-duration="600" href="javascript:void(0)">查看更多</a>
+        </div>
+        <div class="footer" id="contact">
+            <img src="images/ic_footer_icon.png" alt="">
+            <div class="right">
+                <p><span class="icon_ic_footer_address"></span><span>上海市中山南二路枫林创意二期507</span></p>
+                <p><span class="icon_ic_footer_mail"></span> <span>zz@induu.com</span> <span class="icon_ic_footer_telephone"></span>
+                    <span>021-6532XXX</span> </p>
+                <p><span class="icon_ic_footer_copyright"></span> <span>Copyright © 因动文化 all rights reserved.沪ICP备18048951号</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="./plugins/particles.js"></script>
+    <script src="js/all.js?ver=1546408020989"></script>
+
 </body>
+
 </html>

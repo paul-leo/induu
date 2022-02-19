@@ -1,0 +1,196 @@
+const Project = {
+    projectlist:[
+        {
+            year:2018,
+            title:'阿瓦隆之王',
+            subtitle:'巅峰会议英国行全案策划',
+            desc:`<p>调查后，我们洞察到游戏的国际化属性与玩家的调性趋向，针对抵触平淡与普通的玩家群体与阿瓦隆的品牌任务，我们策划了一次具有传奇色彩的英国之行。</p><p class="">以故事形态展现传播内容，以优质素材内容引发用户的自主传播，利用海报与图片以及视频总结活动全过程提高声量 。
+            </p>`,
+            imageList:[
+                {
+                    name:'imagename',
+                    size:'576x324',
+                    url:'upload/demos/img1.jpg'
+                },
+                {
+                    name:'imagename',
+                    size:'280x175',
+                    url:'upload/demos/img2.jpg'
+                },
+                {
+                    name:'imagename',
+                    size:'280x175',
+                    url:'upload/demos/img3.jpg'
+                }
+            ]
+        },
+        {
+            year:2018,
+            title:'DeNA CHINA JOY',
+            subtitle:'2018 CHINA JOY DeNA 展台全案',
+            desc:`<p>2018年China Joy DeNA展台由我们专注于二次元的团队精心设计。</p>
+            <p class="duanluo">759m2 超大活动展台结合DENA主题将知名IP《为谁而炼金》、《灌篮高手》中樱花与篮球场两大元素完美融合。</p>
+            <p class="duanluo">精心策划各个产品展区的运营活动，并结合DENA各类IP策划热血、趣味、精彩的舞台节目及舞台互动活动，展会期间各个展区的玩家络绎不绝，参与人数广泛。</p>`,
+            imageList:[
+                {
+                    name:'imagename',
+                    size:'576x324',
+                    url:'upload/demos/img4.jpg'
+                },
+                {
+                    name:'imagename',
+                    size:'280x175',
+                    url:'upload/demos/img5.jpg'
+                },
+                {
+                    name:'imagename',
+                    size:'280x175',
+                    url:'upload/demos/img6.jpg'
+                }
+            ]
+        },
+        {
+            year:2018,
+            title:'武动乾坤手游自媒体运营',
+            subtitle:'微博与微信运营，持续九个月',
+            desc:`<p>2018年1月-9月，代理运营阿里游戏《武动乾坤》手游微博与微信公众号，以唤醒IP用户和多维度展现游戏大作感为目的产出海量素材，与粉丝积极互动营造官博“动哥”人设和官微“岩大师”人设，为《武动乾坤》手游公测制造了巨大的声望。代运营期间，视频、GIF、表情包、海报、漫画等素材量高达1000+，总曝光量2463万，微博粉丝增长19W+，微信公众号粉丝增长近6W。主持的#武动乾坤#超话阅读量达5.5亿，#武动乾坤手游#微博阅读量达7000万+。</p>
+            `,
+            imageList:[
+                {
+                    name:'imagename',
+                    size:'576x324',
+                    url:'upload/demos/img7.jpg'
+                },
+                {
+                    name:'imagename',
+                    size:'280x175',
+                    url:'upload/demos/img8.jpg'
+                },
+                {
+                    name:'imagename',
+                    size:'280x175',
+                    url:'upload/demos/img9.jpg'
+                }
+            ]
+        },
+        {
+            year:2018,
+            title:'暗黑血统2公测',
+            subtitle:'线下活动策划营销',
+            desc:`<p>2017年11月，《暗黑血统2》公测。结合IP特色与受众喜好，发起#全国范围寻找真男人#活动，采用了区别于以往的地推方式，将单纯的地面推广玩出新花样，从而为公测制造大量关注度。超大型地推投放，辐射区域包含商场、公交站、学校宿舍楼、金店、连锁网咖、烧烤地摊、农村围墙等，传播广泛，赚足眼球。</p>
+            `,
+            imageList:[
+                {
+                    name:'imagename',
+                    size:'576x324',
+                    url:'upload/demos/img10.jpg'
+                },
+                {
+                    name:'imagename',
+                    size:'280x175',
+                    url:'upload/demos/img11.jpg'
+                },
+                {
+                    name:'imagename',
+                    size:'280x175',
+                    url:'upload/demos/img12.jpg'
+                }
+            ]
+        },
+        {
+            year:2018,
+            title:'阿瓦隆之王',
+            subtitle:'全面营销策划',
+            desc:`<p>联合浦东最新兴起的商业地标——长泰广场展开品牌传播活动。</p>
+                <p>以巨型王座、圣剑展出、鉴赏圣剑锻造视频、免费合影打印照片等亮点活动形式组合吸引顾客和玩家，当日长泰广场人流接近10万。</p>
+                <p class="duanluo">联合上海标志性SHOPPING MALL大悦城展开品牌传播活动，以3D地画、高迪艺术展、爱情摩天轮等亮点活动形式组合吸引顾客和玩家，当日创造大悦城非周末最高客流记录。</p>
+            `,
+            imageList:[
+                {
+                    name:'imagename',
+                    size:'576x324',
+                    url:'upload/demos/img13.jpg'
+                },
+                {
+                    name:'imagename',
+                    size:'280x175',
+                    url:'upload/demos/img14.jpg'
+                },
+                {
+                    name:'imagename',
+                    size:'280x175',
+                    url:'upload/demos/img15.jpg'
+                }
+            ]
+        },
+        
+        {
+            year:2018,
+            title:'盛大818网游节',
+            subtitle:'线上活动策划营销',
+            desc:`<p>2018年8月，盛大游戏首个玩家庆典活动“818网游节”开启，旨在多维度构建品牌与实力的双重影响力。团队快速做出响应，联系大量媒体、精选最合适的KOL进行推广铺陈，吸引了大量游戏玩家参与活动，其中微博曝光量565W，新闻媒体推荐总量1000W+，阅读总量102W。</p>
+            `,
+            imageList:[
+                {
+                    name:'imagename',
+                    size:'576x324',
+                    url:'upload/demos/img16.jpg'
+                },
+                {
+                    name:'imagename',
+                    size:'280x175',
+                    url:'upload/demos/img17.jpg'
+                },
+                {
+                    name:'imagename',
+                    size:'280x175',
+                    url:'upload/demos/img18.jpg'
+                }
+            ]
+        },
+        
+        {
+            year:2018,
+            title:'航海王料理还原！',
+            subtitle:'话题传播事件',
+            desc:`<p>以还原海贼王中的特色料理作为主要创意，由微博话题发起，并发动⼤量小型KOL进行舆论引导推上热搜进行广泛传播，同时将该事件作为bilibili 视频传播的预热话题。最后用萌娘上门送料理线下事件作为整个事件的结尾。</p>
+            `,
+            imageList:[
+                {
+                    name:'imagename',
+                    size:'576x324',
+                    url:'upload/demos/img19.jpg'
+                },
+                {
+                    name:'imagename',
+                    size:'280x175',
+                    url:'upload/demos/img20.jpg'
+                },
+                {
+                    name:'imagename',
+                    size:'280x175',
+                    url:'upload/demos/img21.jpg'
+                }
+            ]
+        }
+    ],
+    getList(cb){
+        var result = this.projectlist;
+        // for(var i=0;i<10;i++){
+        //     result.push(this.projectlist[0]);
+        // }
+        if(typeof cb =='function'){
+            cb(result);
+        }
+        
+    }
+}
+module.exports = Project;
+//报错信息
+//访问正式服务
+//查看设计稿偏差
+//发布到正式服
+//设备信息获取
+//屏幕尺寸收集
+//提交bug
+//谁被判断
